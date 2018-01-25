@@ -1,0 +1,23 @@
+body{
+    background-color: #4aaaa5;
+}
+
+#nav-brand{
+    color: white;
+    background-color: #4aaaa5;
+}
+
+#h1_name{
+    color: white;
+}
+
+#navbar{
+    background-color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+    #top {
+        padding-top: 40px;
+        margin: 0 auto;        
+    }
+}  
