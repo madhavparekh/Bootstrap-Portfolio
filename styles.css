@@ -15,9 +15,18 @@ body{
     background-color: #ffffff;
 }
 
+.navbar-nav{
+    display: inline-block;
+}
+
+.navbar-nav li{
+    display: inline-block;
+}
+
 @media screen and (max-width: 768px) {
     #top {
         padding-top: 40px;
         margin: 0 auto;        
     }
-}  
+} 
+
