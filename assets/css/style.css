@@ -6,13 +6,13 @@ body {
     height: 100%; /* Avoid the IE 10-11 `min-height` bug. */
     background: #4aaaa5;
     margin: 0;
-    margin-bottom: 54px;
+    margin-bottom: 79px;
     /* display: flex;
-    flex-direction: column; */
-    height: 100vh;
+    flex-direction: column;
+    height: 100vh; */
 }
 
-header{
+/* header{
     display: flex;
     background-color: #ffffff;
     border: #cccccc;
@@ -47,7 +47,7 @@ header nav a {
     text-align: center;
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
+} */
 
 a:hover {
     background-color: #ddd;
@@ -132,13 +132,13 @@ hr{
     margin-bottom: 20px; */
 }
 
-#flex_view{
+/* #flex_view{
     margin: 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .connect_logo {
     width: 40px;
@@ -173,9 +173,9 @@ hr{
     bottom: 0;
     margin-top: 4px;
     margin-bottom: 0px;
-    height: 50px;
+    height: 75px;
     background-color: #666666;
-    line-height: 50px;
+    line-height: 75px;
 }
 
 .footer p{
@@ -256,3 +256,55 @@ input{
     background-color: #4aaaa5;
     color: white;
  }
+
+ /* bootstrap impementation*/
+#nav-brand{
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+#navbar, #navbar1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#h1_name{
+    color: white;
+    font-size: 2.5rem;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+#navbar{
+    background-color: #ffffff;
+}
+
+#navbar1{
+    text-align: center;
+}
+.navbar-nav{
+    display: inline-block;
+}
+
+.navbar-nav li{
+    display: inline-block;
+}
+
+@media screen and (max-width: 768px) {
+} 
+
+@media screen and (max-width: 575px) {
+    #nav-brand{
+        width: 100%;
+        margin: 0;
+    }
+     
+    #navbar1{
+        width: 100%;
+        margin: 0;
+    }
+
+    #cont_nav{
+        width: 100%;
+    }
+}
