@@ -6,6 +6,7 @@ body {
     height: 100%; /* Avoid the IE 10-11 `min-height` bug. */
     background: #4aaaa5;
     margin: 0;
+    margin-bottom: 54px;
     /* display: flex;
     flex-direction: column; */
     height: 100vh;
@@ -100,7 +101,7 @@ h2{
 h3{
     padding-top: 20px;
     padding-bottom: 20px;
-    /* font-size: 1.3em; */
+    font-size: 1.3em;
 }
 
 p, input, label, textarea, .footer{
@@ -113,8 +114,7 @@ p{
 }
 
 hr{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0px 20px 0px 20px;
     height: 1px;
 }
 
